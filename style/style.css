@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Hagrid Variable1"; /* название шрифта */
+    src: url("/font/Hagrid-Text-Extrabold-trial.ttf"); /* путь к файлу шрифта на вашем компьютере */
+  }
+  @font-face {
+    font-family: "Hagrid Variable2"; /* название шрифта */
+    src: url("/font/HagridTrial-Medium.ttf"); /* путь к файлу шрифта на вашем компьютере */
+  }
+  
+  @font-face {
+    font-family: "SF Pro Medium"; /* название шрифта */
+    src: url("/font/FontsFree-Net-SFProDisplay-Medium.ttf"); /* путь к файлу шрифта на вашем компьютере */
+  }
+  
+  @font-face {
+    font-family: "Hagrid Variable3";
+    src: url("/font/HagridVariable.ttf");
+  }
+
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    min-width: 1440px;
+    max-width: 1440px;
+    position: relative;
+    max-height: 1018px;
+    min-height: 1018px;
+  }
+
+  .indexNew-price {
+    position: relative;
+  }
+
+  .indexNew-price__container {
+    width: 175.342466%; /* 1280/730 */
+    max-height: 730px;
+    height: 57.03125%; /* 730/1280 */
+    max-width: 1280px;
+    margin-left: 87px;
+    padding-top: 144px;
+    padding-right: 73px;
+    padding-bottom: 144px;
+  }
+
+  .indexNew-price__title h1 {
+    font-size: 48px;
+    font-family: 'Hagrid Variable2';
+    line-height: 125%;
+    width: 624px;
+    height: 60px;
+    position: relative;
+    display: flex;
+  }
+
+  .indexNew-price__text p {
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 100%;
+     color: #1B2A47;
+     font-style: normal;
+    
+     display: flex;
+
+  }
+
+  .indexNew-price__title {
+    display: flex;
+    align-items: center;
+  }
+  .indexNew-price__title p {
+    margin-left: auto;
+  }
+
+  .square__title img {
+    /* Ваши стили для изображений img внутри .square__title */
+   /* Добавляем отступ слева между изображениями и текстом */
+    vertical-align: top; /* Выравниваем изображения по центру вертикально */
+  }
+  
+ 
+     
+      .square{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Грид с 3 колонками */
+        gap: 1rem; /* Отступ между элементами грида */
+      }
+
+      /* Стилизация элементов грида */
+      .indexNew-price__title,
+      .indexNew-price__text,
+      .tarifs,
+      .square-tarifes {
+        /* Стилизация для каждого элемента грида */
+        /* ... Ваш код стилизации ... */
+      }
+
+      /* Грид-контейнер внутри square-tarifes */
+      .square-tarifes__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Грид с 3 колонками */
+        gap: 1rem; /* Отступ между элементами грида */
+      }
+
+      /* Стилизация элементов внутри грид-контейнера square-tarifes */
+      .square {
+        /* Стилизация для каждого элемента грида */
+        /* ... Ваш код стилизации ... */
+      }
+   
