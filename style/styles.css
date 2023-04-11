@@ -1,0 +1,392 @@
+@font-face {
+  font-family: "Hagrid Variable1"; /* название шрифта */
+  src: url("/font/Hagrid-Text-Extrabold-trial.ttf"); /* путь к файлу шрифта на вашем компьютере */
+}
+@font-face {
+  font-family: "Hagrid Variable2"; /* название шрифта */
+  src: url("/font/HagridTrial-Medium.ttf"); /* путь к файлу шрифта на вашем компьютере */
+}
+
+@font-face {
+  font-family: "SF Pro Medium"; /* название шрифта */
+  src: url("/font/FontsFree-Net-SFProDisplay-Medium.ttf"); /* путь к файлу шрифта на вашем компьютере */
+}
+
+@font-face {
+  font-family: "Hagrid Variable3";
+  src: url("/font/HagridVariable.ttf");
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  min-width: 1440px;
+  max-width: 1440px;
+  position: relative;
+  max-height: 1018px;
+  min-height: 1018px;
+}
+
+.indexNew-price {
+  position: relative;
+}
+
+.indexNew-price__title svg {
+  display: inline-block;
+}
+.indexNew-price__container {
+  width: 175.342466%; /* 1280/730 */
+  max-height: 730px;
+  height: 57.03125%; /* 730/1280 */
+  max-width: 1280px;
+  margin-left: 87px;
+  padding-top: 144px;
+  padding-right: 73px;
+  padding-bottom: 144px;
+}
+.indexNew-price__title {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.indexNew-price__title p {
+  /* /* margin-left: 10px;  */
+  font-family: "SF Pro Medium";
+  position: relative;
+  text-align: start;
+  flex: 1;
+  left: 1165px;
+  top: -85px;
+}
+
+.indexNew-price__title-text {
+  font-family: "Hagrid Variable2";
+  font-weight: 500;
+  font-size: 48px;
+  color: #1b2a47;
+  width: 1279px;
+  height: 120px;
+}
+
+.indexNew-price__text {
+  display: flex;
+  padding-top: 30px;
+}
+
+.indexNew-price__text p {
+  display: flex;
+  flex-direction: column;
+  /* vertical-align: top; */
+  margin: 0;
+  font-family: "SF Pro Medium";
+  line-height: 150%;
+  color: #424c60;
+  font-weight: 400;
+  padding-bottom: 30px;
+  padding-right: 16px;
+}
+
+.tarifs__title {
+  font-size: 16px;
+  line-height: 150%;
+  font-family: "Hagrid Variable2";
+  font-weight: 500;
+  color: #1b2a47;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+li {
+  font-family: "SF Pro Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+li::marker {
+  color: #ff515e;
+  list-style: disc;
+}
+
+.tarifs ul {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 525/24; /* 525/24 */
+  height: 4.571429%; /* 24/525 */
+  position: relative;
+  left: 15px;
+  font-family: "SF Pro Medium";
+  padding-bottom: 40px;
+  line-height: 150%;
+  list-style: disc;
+  /* flex-direction: ; */
+}
+.tarifs ul {
+  width: 525px;
+  justify-content: space-between;
+}
+.tarifs ul li {
+  color: black;
+}
+
+.tarifs li::marker {
+  list-style-type: disc;
+  color: #ff515e;
+}
+
+.square {
+  border: 2px solid #ff515e;
+  gap: 32px;
+  margin-right: 32px;
+  background-color: #fff5f5;
+  border-radius: 5px;
+  width: 404px;
+  height: 326px;
+  flex-wrap: wrap;
+  display: relative;
+}
+
+.square-tarifes__container {
+  display: flex;
+  width: 1280px;
+  height: 326px;
+}
+
+.square__title {
+  font-style: normal;
+  font-family: "Hagrid Variable2";
+  font-size: 16px;
+  gap: 16px;
+  width: 124px;
+  height: 24px;
+  padding-bottom: 8px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.price__title {
+  font-size: 48px;
+  font-family: "SF Pro Medium";
+  color: #1b2a47;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+}
+
+.price__container {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+}
+
+.price__text {
+  color: #7c8494;
+}
+
+/* {
+  padding: 0;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-top: 8px;
+  padding-bottom: 24px;
+} */
+
+.square__list li {
+  position: relative;
+  /* padding-left: 6px; */
+  padding-bottom: 16px;
+  list-style: disc;
+  left: 60px;
+}
+
+.square__list li::marker {
+  color: #ff515e;
+}
+
+.square__link {
+  background-color: #1b2a47;
+  width: 80px;
+  height: 18px;
+  padding: 14px 24px;
+  color: #ffffff;
+  border-radius: 2px;
+  text-decoration: none;
+  margin-left: 40px;
+  top: 916px;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+}
+
+.svg__light {
+  position: absolute;
+  right: 960px;
+  /* position: absolute;
+    right: 961px; */
+}
+
+.svg__mid {
+  position: absolute;
+  right: 533px;
+}
+
+.svg__lg {
+  position: absolute;
+  right: 107px;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    min-width: 375px;
+    max-width: 375px;
+    position: relative;
+    max-height: 1700px;
+    min-height: 1700px;
+  }
+
+  .indexNew-price__container {
+    margin-left: 16px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .indexNew-price__title {
+    width: 389.772727%; /* 343/88 */
+    max-width: 343px;
+    height: 25.655977%; /* 88/343 */
+    max-height: 88px;
+  }
+  .indexNew-price__title p {
+    padding-top: 504px;
+    left: 0px;
+  }
+  .indexNew-price__title-text {
+    width: 343px;
+    height: 88px;
+    font-family: "Hagrid Variable2";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .indexNew-price__text {
+    width: 343px;
+    height: 352px;
+    display: grid;
+  }
+
+  .tarifs__title {
+    width: 163px;
+    height: 20px;
+    font-size: 14px;
+    padding-top: 84px;
+  }
+
+  /* .tarifs ul {
+    display: flex;
+    width: 298px;
+    height: 56px;
+    gap: 24px;
+    align-items: flex-start;
+    padding-right: 24px;
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  .tarifs li {
+    flex-basis: 100%;
+    flex-direction: column;
+  }
+
+  .tarifs ul {
+    flex-wrap: wrap; /* Добавляем перенос элементов на новую строку на мобильных устройствах */
+  /* } */
+
+  .square-tarifes__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    width: 343px;
+    height: 270px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .square {
+    width: 343px;
+    height: 270px;
+    position: relative;
+  }
+  .square__title {
+    padding-left: 24px;
+  }
+
+  .price__title {
+    padding-left: 24px;
+  }
+
+  .square__list {
+    position: relative;
+    top: 0px;
+    right: 20px;
+  }
+
+  .square__title img {
+    /* Ваши стили для изображений img внутри .square__title */
+    /* Добавляем отступ слева между изображениями и текстом */
+    vertical-align: top; /* Выравниваем изображения по центру вертикально */
+    top: -64px;
+    position: relative;
+  }
+
+  .square__link {
+    top: 205px;
+    width: 80px;
+    height: 10px;
+    margin-left: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .svg__light {
+    position: relative;
+    right: 0;
+    /* right: 0px; */
+    top: -55px;
+    left: 173px;
+  }
+
+  .svg__mid {
+    position: relative;
+    right: -152px;
+    top: -57px;
+  }
+  .svg__lg {
+    position: relative;
+    right: -163px;
+    top: -54px;
+    /* bottom: -238px; */
+    border-radius: 5px;
+  }
+}
